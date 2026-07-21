@@ -8,7 +8,7 @@ console.log(firstPara);
 // grabbing a particular element
 const allParas = document.querySelectorAll('p'); // querySelectorAll() returns an array of all elements that match the selector
 console.log(allParas); // returns a nodelist like an array
-console.log(allParas[0]); // similarly we can access the elements by index
+console.log(allParas[0]); // similarly we can access the elements by index or forEach method
 allParas.forEach(para => {
     console.log(para);
 });
